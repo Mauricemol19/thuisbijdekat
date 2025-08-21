@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /vendor/
+Disallow: 404.php
+
+Sitemap: 
