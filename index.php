@@ -11,15 +11,12 @@ require('includes/setup.php');
 <div class="container-fluid" id="wrapper" style="padding-left: 0;padding-right: 0;">
 
     <?php
-    require('includes/header.php');
-
-    echo "<div data-sticky-wrap style='overflow: hidden;margin-left: 15px;margin-right: 15px;'>";
+    require('includes/header.php');    
 
     //Homepage
     require("includes/home.php");    
-
     ?>
-    <div class="push"></div>
+
 </div>
 <?php
 
