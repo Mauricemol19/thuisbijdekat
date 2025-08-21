@@ -5,7 +5,7 @@ setlocale(LC_ALL, 'nl_NL', 'Dutch', 'nl_utf8');
 define("DB_HOST", "127.0.0.1");
 define("DB_USER", "root");
 define("DB_PASS", "");
-define("DB_NAME", "db343767_huushinne");
+define("DB_NAME", "db3749273_thuisbijdekat");
 
 //define("MOLLIE_API_KEY", "live_adu6dnUDhBhNvjfPncB737vukp9u3B");
 define("MOLLIE_API_KEY", "test_mQqRK7RbQpRarGSKWDE76PMk4apjRy");
