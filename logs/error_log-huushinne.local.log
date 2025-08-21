@@ -1,0 +1,3 @@
+index.php| [2025-08-21 14:55:27] http://huushinne.local : Curl request failed: HTTP status code: 403 Url: https://graph.facebook.com/v22.0/17841400223013683/media?fields=id%2Cmedia_url%2Cmedia_type%2Cpermalink&access_token=
+index.php| [2025-08-21 14:55:30] http://huushinne.local : Curl request failed: HTTP status code: 403 Url: https://graph.facebook.com/v22.0/17841400223013683/media?fields=id%2Cmedia_url%2Cmedia_type%2Cpermalink&access_token=
+index.php| [2025-08-21 14:57:23] http://huushinne.local : Curl request failed: HTTP status code: 403 Url: https://graph.facebook.com/v22.0/17841400223013683/media?fields=id%2Cmedia_url%2Cmedia_type%2Cpermalink&access_token=

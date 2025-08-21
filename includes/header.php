@@ -9,7 +9,7 @@
 			<div class="navbar" role="navigation" id="navbar_data_parent">
 				<div class="navbar-header">
                     <a href="/winkelmand.php"><span style="text-align: right;margin-top: 8px;" id="shopping_cart_head_m"><img style="margin-right: 25px;" src="/src/images/shopping-basket2.png" alt="Winkelmand"/></span></a>
-                    <a href="/index.php" id="m_title" style="font-size: 8vw;margin-left: 5vw;color: black;display: none;text-decoration: none;">HUUSHINNE</a>
+                    <a href="/index.php" id="m_title" style="font-size: 8vw;margin-left: 5vw;color: black;display: none;text-decoration: none;">Kattenoppas Groningen & Emmen</a>
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_menu_nav" style="margin-left: 15px;background-color: white;float: left;" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
@@ -20,7 +20,7 @@
                 </div>
 				<div id="main_menu_nav" class="navbar-collapse collapse sidebar-navbar-collapse">
 					<ul id="main_menu_nav_ul" class="nav navbar-nav">
-                        <li><a href="/index.php" id="d_title" style="font-size: 35px;margin-left: 1vw;color: black;padding-right: 0;">HUUSHINNE</a></li>
+                        <li><a href="/index.php" id="d_title" style="font-size: 35px;margin-left: 1vw;color: black;padding-right: 0;">Kattenoppas Groningen & Emmen</a></li>
                         <li style="margin-right: 15px;"></li>
                         <?php
                             $core->writeMenu();
