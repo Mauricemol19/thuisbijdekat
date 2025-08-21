@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-2">
         <a href="index.php">        
-            <img src="src/images/logo.nl.groningen.png"/>
+            <img src="src/images/logo.nl.groningen.png" width="100%"/>
         </a>
     </div>
     <div class="col-md-10">
