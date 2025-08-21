@@ -11,11 +11,47 @@ require('includes/setup.php');
 <div class="container-fluid" id="wrapper" style="padding-left: 0;padding-right: 0;">
 
     <?php
-    require('includes/header.php');    
+    require('includes/header.php');   
+    
+    $page = $url->getPage();
 
-    //Homepage
-    require("includes/home.php");    
+    switch($page)
+    {        
+        case "mijnverhaal":
+            require("includes/pages/mijnverhaal.php");      
+            break;
+        case "diensten":
+            require("includes/pages/diensten.php");      
+            break;
+        case "tarieven":
+            require("includes/pages/tarieven.php");      
+            break;
+        case "reviews":
+            require("includes/pages/reviews.php");      
+            break;
+        case "reserveren":
+            require("includes/pages/reserveren.php");      
+            break;
+        case "contact":
+            require("includes/pages/contact.php");      
+            break;
+        case "account":
+            require("includes/pages/account.php");      
+            break;
+        case "Home":
+        default:
+            require("includes/home.php");
+            break;
+    }         
+    
     ?>
+
+    <style>
+        #<?php echo $page; ?> 
+        {
+            border-bottom: 2px solid black !important;
+        }
+    </style>
 
 </div>
 <?php

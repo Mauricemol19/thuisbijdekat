@@ -30,9 +30,6 @@ http_response_code(404);
         <div class="col-lg-3"></div>
         <div class="col-lg-6">
             <h1 style="text-align: center;font-size:35px;">404 Error</h1>           
-            <div style="text-align:center;font-size: 20px;">De webpagina die u probeert te bereiken bestaat niet.</div>
-			<div style="text-align:center;font-size: 20px;">Huushinne.nl is vernieuwd! hierdoor zijn veel links helaas niet meer beschikbaar.</div>
-            <div style="text-align:center;font-size: 20px;"><a href="/index.php" style="text-decoration:none;">Klik hier</a> om naar onze nieuwe hoofdpagina te gaan.</div>
         </div>
         <div class="col-lg-3"></div>
     </div>

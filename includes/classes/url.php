@@ -74,7 +74,15 @@ Class Url {
         global $db;
 
         $mainPages = [
-            "index.php"            
+            "index.php",
+            "home",
+            "mijnverhaal",
+            "diensten",
+            "tarieven",
+            "reviews",
+            "reserveren",
+            "contact",
+            "account"            
         ];
 
         $db->query("SELECT name FROM pages");
@@ -98,6 +106,7 @@ Class Url {
             return true;
         }
 
+        /*
         if ($count >= 2) {
             if (!$this->catCheck($elements)) {
                 return false;
@@ -123,6 +132,7 @@ Class Url {
 
             return true;
         }
+            */
         /* else {
             if ($this->catCheck($elements)) {
                 if ($count >= 2) {
